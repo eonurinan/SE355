@@ -22,6 +22,8 @@ public class Player : MonoBehaviour {
 									// 3 = Lane Swiper Ammo
 	}
 
+	private GameObject[] AmmoPrefabs;
+
 	#endregion
 
 	#region Unity Event Functions
@@ -36,6 +38,15 @@ public class Player : MonoBehaviour {
 
 	void Start(){
 		Move (1);
+		Ammo = 1;
+		GameObject.Find ("GameManager").GetComponent<GameManager>().showAmmo();
+
+		AmmoPrefabs = new GameObject[3]; 
+
+		AmmoPrefabs [0] = Resources.Load<GameObject> ("Prefabs/Bread_Standard");
+		AmmoPrefabs [1] = Resources.Load<GameObject> ("Prefabs/Chicken_Slowing");
+		AmmoPrefabs [2] = Resources.Load<GameObject> ("Prefabs/Spicy_Swiper");
+
 	}
 
 	#endregion
@@ -61,15 +72,16 @@ public class Player : MonoBehaviour {
 
 	public void Shoot(int desiredLane){
 		if (desiredLane == currentLane) {
-			//Instantiate ammo prefab, corresponding to the ammo ID.
-		} 			
-	}
+			if (Ammo == 0)
+				Debug.Log ("No ammo");
+			else {
+				GetComponent<Animator> ().SetTrigger("ToThrow");
+				Instantiate (AmmoPrefabs [Ammo - 1], transform.position, transform.rotation);
+				Ammo = 0;
+				GameObject.Find ("GameManager").GetComponent<GameManager>().showAmmo();
 
-	public void TakeAmmo(Couldron couldron){					//Will execute when clicked to a couldron.
-		if (Ammo == null && couldron.ammoStored > 0) {
-			Ammo = couldron.ID;
-			couldron.ammoStored--;
-		}
+			}
+		} 			
 	}
 
 	#endregion

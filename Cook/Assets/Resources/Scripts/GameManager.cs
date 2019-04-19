@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 	
 	#region Attributes
 
+	private Image currAmmo;
+	private Sprite[] AmmoSprites;
 	public static GameManager instance = null;		//Singleton instance
 	public static int Score = 0;
+	private Player player;
+	 
 
 	#endregion
 
@@ -23,6 +28,14 @@ public class GameManager : MonoBehaviour {
 		DontDestroyOnLoad (gameObject);
 
 		Screen.orientation = ScreenOrientation.Landscape;
+		currAmmo = GameObject.Find ("ammoImage").GetComponent<Image>();
+
+		AmmoSprites = new Sprite[4];
+
+		AmmoSprites[0] = Resources.Load <Sprite> ("Sprites/Ammo/0");
+		AmmoSprites[1] = Resources.Load <Sprite> ("Sprites/Ammo/1");
+		AmmoSprites[2] = Resources.Load <Sprite> ("Sprites/Ammo/2");
+		AmmoSprites[3] = Resources.Load <Sprite> ("Sprites/Ammo/3");
 	}
 
 	#endregion
@@ -31,6 +44,10 @@ public class GameManager : MonoBehaviour {
 
 	void Killed(Enemy enemy){
 		 //Increase score according to the enemy type
+	}
+
+	public void showAmmo(){
+		currAmmo.sprite =  AmmoSprites[Player.instance.Ammo];
 	}
 
 	#endregion

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AmmoLaneSwiper : Ammo {
 	void Start(){
-		speed = 3;
+		speed = 15;
 		damage = 1000;
 	}
 

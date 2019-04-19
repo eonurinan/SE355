@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AmmoSlowing : Ammo {
 	void Start(){
-		speed = 1;
+		speed = 8;
 		damage = 1;
 	}
 

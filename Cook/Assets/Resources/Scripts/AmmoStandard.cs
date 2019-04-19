@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AmmoStandard : Ammo {
 	void Start(){
-		speed = 1;
+		speed = 10;
 		damage = 5;
 	}
 
