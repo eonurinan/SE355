@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
 	#region Attributes
 
 	private Image currAmmo;
+	private Text scoreText;
 	private Sprite[] AmmoSprites;
 	public static GameManager instance = null;		//Singleton instance
 	public static int Score = 0;
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour {
 
 	void Awake()
 	{
+		scoreText = GameObject.Find("Score").GetComponent<Text>();
 		if (instance == null)
 			instance = this;
 		else if (instance != this)
@@ -32,7 +34,7 @@ public class GameManager : MonoBehaviour {
 
 		AmmoSprites = new Sprite[4];
 
-		AmmoSprites[0] = Resources.Load <Sprite> ("Sprites/Ammo/0");
+		AmmoSprites[0] = Resources.Load <Sprite> ("Sprites/Ammo/0");	//Empty icon
 		AmmoSprites[1] = Resources.Load <Sprite> ("Sprites/Ammo/1");
 		AmmoSprites[2] = Resources.Load <Sprite> ("Sprites/Ammo/2");
 		AmmoSprites[3] = Resources.Load <Sprite> ("Sprites/Ammo/3");
@@ -48,6 +50,16 @@ public class GameManager : MonoBehaviour {
 
 	public void showAmmo(){
 		currAmmo.sprite =  AmmoSprites[Player.instance.Ammo];
+	}
+
+	public void reloadScore(){
+		scoreText.text =  Score.ToString();
+	}
+
+	public void addScore(int i){
+		Score += i;
+		
+		reloadScore();
 	}
 
 	#endregion

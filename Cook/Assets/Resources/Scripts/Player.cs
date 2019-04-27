@@ -8,19 +8,14 @@ public class Player : MonoBehaviour {
 
 	public static Player instance = null;		//Singleton instance
 
-	private int _currentLane;
-	public int currentLane{
-		get {return _currentLane;}
-		set { _currentLane = value; }
-	}
+	public int currentLane;
 
-	private int _Ammo;
-	public int Ammo{				//This is the ID of ammo that player is holding.
-		get {return _Ammo;}			//ID's are:
-		set { _Ammo = value; }		// 1 = Standard Ammo
-									// 2 = Slowing Ammo
-									// 3 = Lane Swiper Ammo
-	}
+	public int Ammo;
+		//This is the ID of ammo that player is holding.
+		//ID's are:
+		// 1 = Standard Ammo
+		// 2 = Slowing Ammo
+		// 3 = Lane Swiper Ammo
 
 	private GameObject[] AmmoPrefabs;
 
@@ -75,7 +70,7 @@ public class Player : MonoBehaviour {
 			if (Ammo == 0)
 				Debug.Log ("No ammo");
 			else {
-				GetComponent<Animator> ().SetTrigger("ToThrow");
+				GetComponent<Animator>().SetTrigger("ToThrow");
 				Instantiate (AmmoPrefabs [Ammo - 1], transform.position, transform.rotation);
 				Ammo = 0;
 				GameObject.Find ("GameManager").GetComponent<GameManager>().showAmmo();
