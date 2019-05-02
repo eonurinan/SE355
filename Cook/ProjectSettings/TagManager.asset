@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Wall
-  - ShopPanel
+  - RemoteConfig
   layers:
   - Default
   - TransparentFX

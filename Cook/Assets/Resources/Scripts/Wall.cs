@@ -8,7 +8,7 @@ public class Wall : MonoBehaviour {
 	private float healthMax;
 	protected Slider healthBar;
 
-	public static float health = 300;
+	public float health = 300;
 		
 	public void Start (){
 			healthBar = transform.GetChild (0).GetComponent<Slider> ();
@@ -23,5 +23,15 @@ public class Wall : MonoBehaviour {
 	}
 	
 
-
+/* 	public 
+	void OnTriggerStay2D(Collider2D col){
+		if (col.CompareTag("Enemy")){
+			Health--;
+			Debug.Log (Health);
+			healthBar.value = (float) Health / HealthMax;
+			if (Health <= 0)
+				Destroy (gameObject);
+		}
+	}
+	*/
 }

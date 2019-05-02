@@ -24,7 +24,7 @@ abstract public class Enemy : MonoBehaviour
 			
         if (health <= 0)
         {
-            GameManager.instance.ScoreGoldProgress(5, 10);
+			GameManager.instance.addScore(5);
             Destroy(gameObject);
         }
     }

@@ -8,9 +8,11 @@ public class AlienBaloon : Enemy
 
     void Start()
     {
-		speed = 1;
-		health = 20;
-		damage = 10;
+		speed = RemoteConfig.alienBalloonSpeed;
+		Debug.Log("alien ballon speed" + RemoteConfig.alienBalloonSpeed);
+		
+		health = RemoteConfig.alienBalloonHealth;
+		damage = RemoteConfig.alienBalloonDamage;
 
 		healthBar = transform.GetChild (0).GetChild (0).GetComponent<Slider> ();
 		healthMax = health;

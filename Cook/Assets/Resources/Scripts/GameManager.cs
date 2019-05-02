@@ -8,10 +8,10 @@ public class GameManager : MonoBehaviour {
 	#region Attributes
 
 	private Image currAmmo;
-    private Text scoreText, goldText;
+	private Text scoreText;
 	private Sprite[] AmmoSprites;
-	public static GameManager instance = null;      //Singleton instance
-    public static int Score = 0, gold = 0;
+	public static GameManager instance = null;		//Singleton instance
+	public static int Score = 0;
 	private Player player;
 	 
 
@@ -20,56 +20,47 @@ public class GameManager : MonoBehaviour {
 	#region Unity Event Functions
 
 	void Awake()
-    {
-        Textİnitial();
+	{
+		scoreText = GameObject.Find("Score").GetComponent<Text>();
+		if (instance == null)
+			instance = this;
+		else if (instance != this)
+			Destroy (gameObject);    
 
-        if (instance == null)
-            instance = this;
-        else if (instance != this)
-            Destroy(gameObject);
+		DontDestroyOnLoad (gameObject);
 
-        DontDestroyOnLoad(gameObject);
+		Screen.orientation = ScreenOrientation.Landscape;
+		currAmmo = GameObject.Find ("ammoImage").GetComponent<Image>();
 
-        Screen.orientation = ScreenOrientation.Landscape;
-        currAmmo = GameObject.Find("ammoImage").GetComponent<Image>();
+		AmmoSprites = new Sprite[4];
 
-        AmmoSprites = new Sprite[4];
+		AmmoSprites[0] = Resources.Load <Sprite> ("Sprites/Ammo/0");	//Empty icon
+		AmmoSprites[1] = Resources.Load <Sprite> ("Sprites/Ammo/1");
+		AmmoSprites[2] = Resources.Load <Sprite> ("Sprites/Ammo/2");
+		AmmoSprites[3] = Resources.Load <Sprite> ("Sprites/Ammo/3");
+	}
 
-        AmmoSprites[0] = Resources.Load<Sprite>("Sprites/Ammo/0");  //Empty icon
-        AmmoSprites[1] = Resources.Load<Sprite>("Sprites/Ammo/1");
-        AmmoSprites[2] = Resources.Load<Sprite>("Sprites/Ammo/2");
-        AmmoSprites[3] = Resources.Load<Sprite>("Sprites/Ammo/3");
-    }
+	#endregion
 
-    public void Textİnitial()
-    {
-        scoreText = GameObject.Find("Score").GetComponent<Text>();
-        scoreText.text = "Score : " + Score.ToString();
-        goldText = GameObject.Find("Gold").GetComponent<Text>();
-        goldText.text = "Gold : " + gold.ToString();
-    }
+	#region Methods
 
-    #endregion
+	void Killed(Enemy enemy){
+		 //Increase score according to the enemy type
+	}
 
-    #region Methods
-    public void showAmmo(){
+	public void showAmmo(){
 		currAmmo.sprite =  AmmoSprites[Player.instance.Ammo];
 	}
 
 	public void reloadScore(){
-		scoreText.text ="Score : " + Score.ToString();
+		scoreText.text =  Score.ToString();
 	}
-    public void reloadGold()
-    {
-        goldText.text = "Gold : " + gold.ToString();
-    }
 
-    public void ScoreGoldProgress(int s,int g) //first parameter get score for each enemy killed,second get gold for each enemy killed
-    {
-        Score += s;
-        gold += g;
-        reloadScore();
-        reloadGold();
-    }
+	public void addScore(int i){
+		Score += i;
+		
+		reloadScore();
+	}
+
 	#endregion
 }

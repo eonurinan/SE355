@@ -7,16 +7,17 @@ public class AlienBird : Enemy
 {
     void Start()
     {
-        speed = 1.5f;
-        health = 50;
-        damage = 10;
+        speed = RemoteConfig.alienBirdSpeed;
+        health = RemoteConfig.alienBirdHealth;
+        damage = RemoteConfig.alienBirdDamage;
 
-		healthBar = transform.GetChild (0).GetChild (0).GetComponent<Slider> ();
-		healthMax = health;
+
+        healthBar = transform.GetChild(0).GetChild(0).GetComponent<Slider>();
+        healthMax = health;
     }
+
     void Update()
     {
         Move();
     }
-   
 }
