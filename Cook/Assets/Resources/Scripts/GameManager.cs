@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour {
 	
 	#region Attributes
 
-	private Image currAmmo;
     private Text scoreText, goldText;
 	private Sprite[] AmmoSprites;
 	public static GameManager instance = null;      //Singleton instance
@@ -21,7 +20,7 @@ public class GameManager : MonoBehaviour {
 
 	void Awake()
     {
-        Textİnitial();
+        TextInitial();
 
         if (instance == null)
             instance = this;
@@ -31,7 +30,6 @@ public class GameManager : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
 
         Screen.orientation = ScreenOrientation.Landscape;
-        currAmmo = GameObject.Find("ammoImage").GetComponent<Image>();
 
         AmmoSprites = new Sprite[4];
 
@@ -39,22 +37,20 @@ public class GameManager : MonoBehaviour {
         AmmoSprites[1] = Resources.Load<Sprite>("Sprites/Ammo/1");
         AmmoSprites[2] = Resources.Load<Sprite>("Sprites/Ammo/2");
         AmmoSprites[3] = Resources.Load<Sprite>("Sprites/Ammo/3");
+
     }
 
-    public void Textİnitial()
+    #endregion
+
+    #region Methods
+
+        public void TextInitial()
     {
         scoreText = GameObject.Find("Score").GetComponent<Text>();
         scoreText.text = "Score : " + Score.ToString();
         goldText = GameObject.Find("Gold").GetComponent<Text>();
         goldText.text = "Gold : " + gold.ToString();
     }
-
-    #endregion
-
-    #region Methods
-    public void showAmmo(){
-		currAmmo.sprite =  AmmoSprites[Player.instance.Ammo];
-	}
 
 	public void reloadScore(){
 		scoreText.text ="Score : " + Score.ToString();
@@ -71,5 +67,11 @@ public class GameManager : MonoBehaviour {
         reloadScore();
         reloadGold();
     }
+    
+
+    public void GameOver(){
+        Time.timeScale = 0;
+    }
+
 	#endregion
 }

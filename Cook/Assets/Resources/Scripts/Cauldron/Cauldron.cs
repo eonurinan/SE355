@@ -21,6 +21,8 @@ public class Cauldron : MonoBehaviour {
 
     private float percentage = 0;		//When percentage reaches 100, new ammo will be added.
 
+	public Color defColor;
+
 	#endregion
 
 	#region Unity Event Functions
@@ -29,6 +31,8 @@ public class Cauldron : MonoBehaviour {
 		txt = transform.GetChild(1).GetComponent<Text>();
 		RefreshText ();
 		fillSpeed = (4-ammoType)*10;
+
+		defColor = GetComponent<Image>().color;
 	}
 
 	void Update(){
@@ -44,20 +48,30 @@ public class Cauldron : MonoBehaviour {
 
 	#region Methods
 
-	void RefreshText (){
-		txt.text = ammoStored.ToString();
-	}
-	public void GiveAmmo(){	
-		Player p = Player.instance;
-		if (p.currentLane == 3 - ID) {
-			if (p.Ammo == 0 && ammoStored > 0) {
-				p.Ammo = ammoType;
-				ammoStored--;
-				RefreshText ();
-				GameObject.Find ("GameManager").GetComponent<GameManager>().showAmmo();
-			}
-		}
+	public void Highlight(bool t){
+		if(t)
+			GetComponent<Image>().color = new Color(255,255,255,255);
+		else
+			GetComponent<Image>().color = defColor ;
+		
+
 	}
 
-	#endregion
+	public void RefreshText (){
+		txt.text = ammoStored.ToString();
 	}
+	public void SetAmmo(){	
+		Player p = Player.instance;
+		p.Ammo = ammoType;
+		p.currCauld.Highlight(false);
+		p.currCauld = gameObject.GetComponent<Cauldron>();
+		p.currCauld.Highlight(true);
+		Debug.Log(p.currCauld.ID);
+		RefreshText ();
+		}
+	#endregion
+}
+	
+
+
+	

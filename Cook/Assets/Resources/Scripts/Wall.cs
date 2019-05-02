@@ -19,7 +19,8 @@ public class Wall : MonoBehaviour {
 		health-= damage;
 		healthBar.value = health / healthMax;
 		if (health <= 0)
-			Destroy (gameObject);
+			GameManager.instance.GameOver();
+			//Destroy (gameObject);
 	}
 	
 
