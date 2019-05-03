@@ -56,7 +56,7 @@ public class SpawnManager : MonoBehaviour {
                 if (lastSpawn + cd < Time.time)
                 {
                     ////Spawn First
-                    cd = RemoteConfig.alienBalloonHealth / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 1 + " Spawned on "+ (lane+1)+". Lane");
                      Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);
@@ -71,7 +71,7 @@ public class SpawnManager : MonoBehaviour {
                 if (RandomIndex < 20 && lastSpawn + cd < Time.time)
                 {
                     ////Spawn First
-                    cd = RemoteConfig.alienBalloonHealth / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 1 + " Spawned on " + (lane + 1) + ". Lane");
                      Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);
@@ -79,7 +79,7 @@ public class SpawnManager : MonoBehaviour {
                 else if (lastSpawn + cd < Time.time)
                 {
                     ////Spawn Second
-                    cd = RemoteConfig.alienBalloonHealth / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 2 + " Spawned on " + (lane + 1) + ". Lane");
                     Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);
@@ -93,7 +93,7 @@ public class SpawnManager : MonoBehaviour {
                 if (RandomIndex < 20 && lastSpawn + cd < Time.time)
                 {
                     ////Spawn First
-                    cd = RemoteConfig.alienBalloonHealth / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 1 + " Spawned on " + (lane + 1) + ". Lane");
                     Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);
@@ -101,7 +101,7 @@ public class SpawnManager : MonoBehaviour {
                 else if (RandomIndex < 40 && lastSpawn + cd < Time.time)
                 {
                     ////Spawn Second
-                    cd = RemoteConfig.alienBalloonHealth / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 2 + " Spawned on " + (lane + 1) + ". Lane");
                     Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);
@@ -109,7 +109,7 @@ public class SpawnManager : MonoBehaviour {
                 else if (lastSpawn + cd < Time.time)
                 {
                     ////Spawn Third
-                    cd = RemoteConfig.alienBalloonHealth / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 3 + " Spawned on " + (lane + 1) + ". Lane");
                     Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);

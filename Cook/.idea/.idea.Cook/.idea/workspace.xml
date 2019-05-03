@@ -2,53 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7f1d328-127b-413b-8bd5-683b826caf5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cook/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cook/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/Data.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/Data/RemoteSettingsDataStore.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/Data/RemoteSettingsDataStore.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/Data/RemoteSettingsDataStore.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/Data/RemoteSettingsDataStore.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/DriveablePropertyDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/DriveablePropertyDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/DriveablePropertyDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/DriveablePropertyDrawer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsComponent icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsComponent icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsComponentEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsComponentEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsComponentEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsComponentEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsHolder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsHolder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsLinker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsLinker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsLinker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsLinker.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings/DriveableProperty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings/DriveableProperty.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings/DriveableProperty.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings/DriveableProperty.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings/RemoteSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings/RemoteSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings/RemoteSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/RemoteSettings/RemoteSettings.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Ammo/AmmoSlowing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Ammo/AmmoSlowing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Cauldron.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Cauldron.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Cauldron/Cauldron.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Cauldron/Cauldron.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Enemy/AlienBaloon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Enemy/AlienBaloon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Enemy/AlienBird.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Enemy/AlienBird.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Enemy/AlienOctopus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Enemy/AlienOctopus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/RemoteConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/RemoteConfig.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Shop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Shop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/Wall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/Wall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/SpawnManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,61 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsLinker.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="173" column="106" lean-forward="true" selection-start-line="173" selection-start-column="106" selection-end-line="173" selection-end-column="106" />
-              <folding>
-                <marker date="1556890567484" expanded="false" signature="29:379" ph="..." />
-                <marker date="1556890567484" expanded="true" signature="413:9188" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="420:613" ph="/* During a build, collect classes referenced by RemoteSettings components ... */" />
-                <marker date="1556890567484" expanded="true" signature="685:9186" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="860:986" ph="/* We need to know if OnProcessScene is being called from a player build, or ... */" />
-                <marker date="1556890567484" expanded="true" signature="1076:1324" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="1358:1408" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="1457:1526" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="1598:1667" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="1835:3530" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="1994:2388" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="2118:2199" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="2235:2374" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="2422:3520" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="2539:2712" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="2596:2694" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="2961:3506" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="3168:3488" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="3279:3466" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="3718:5035" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="3741:4071" ph="/* In addition to the build process, OnProcessScene is also called on the current scene ... */" />
-                <marker date="1556890567484" expanded="true" signature="4122:5025" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="4201:4495" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="4306:4477" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="4513:4705" ph="/* OnPostprocessBuild is called after assemblies are already stripped ... */" />
-                <marker date="1556890567484" expanded="true" signature="4756:5011" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="5193:7268" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="5253:7258" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="5453:5519" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="5672:7244" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="6010:6811" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="6364:6726" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="6536:6700" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="6855:6950" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="7009:7122" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="7353:9180" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="7958:8890" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="8284:8876" ph="{...}" />
-                <marker date="1556890567484" expanded="true" signature="8323:8617" ph="/* TODO: to optimize build size, we could preserve only the fields by and/or ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Cauldron/Cauldron.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+            <state relative-caret-position="330">
+              <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
               <folding>
                 <marker date="1556888793977" expanded="false" signature="6:100" ph="..." />
                 <marker date="1556888793977" expanded="true" signature="140:1568" ph="{...}" />
@@ -165,13 +71,39 @@
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Spawner.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <marker date="1556889816475" expanded="false" signature="6:78" ph="..." />
                 <marker date="1556889816475" expanded="true" signature="116:1164" ph="{...}" />
                 <marker date="1556889816475" expanded="true" signature="315:586" ph="{...}" />
                 <marker date="1556889816475" expanded="true" signature="610:1162" ph="{...}" />
                 <marker date="1556889816475" expanded="true" signature="736:1156" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/SpawnManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1556890800802" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556890800802" expanded="true" signature="122:4418" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="404:698" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="717:896" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="927:4411" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="954:4386" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="1331:1825" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="1410:1810" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="1859:2871" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="1993:2398" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="2451:2856" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="2888:4376" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="3022:3426" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="3499:3904" ph="{...}" />
+                <marker date="1556890800802" expanded="true" signature="3957:4361" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -258,6 +190,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cd</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -290,8 +227,8 @@
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Ammo/AmmoStandard.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/Wall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsLinker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/SpawnManager.cs" />
       </list>
     </option>
   </component>
@@ -306,14 +243,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -323,6 +260,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -363,11 +301,12 @@
       <workItem from="1556888993329" duration="169000" />
       <workItem from="1556889332773" duration="702000" />
       <workItem from="1556890411055" duration="165000" />
+      <workItem from="1556890731331" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1036000" />
+    <option name="totallyTimeSpent" value="1142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,7 +320,7 @@
   <component name="ToolWindowManager">
     <frame x="494" y="0" width="1433" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17115805" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17334305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -485,25 +424,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/SpawnManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsLinker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="2385">
+          <caret line="173" column="106" selection-start-line="173" selection-start-column="106" selection-end-line="173" selection-end-column="106" />
           <folding>
-            <marker date="1556889943960" expanded="true" signature="122:4274" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="404:698" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="717:896" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="927:4267" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="954:4242" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="1331:1801" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="1410:1786" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="1835:2799" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="1969:2350" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="2403:2784" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="2816:4232" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="2950:3330" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="3403:3784" ph="{...}" />
-            <marker date="1556889943960" expanded="true" signature="3837:4217" ph="{...}" />
+            <marker date="1556890567484" expanded="false" signature="29:379" ph="..." />
+            <marker date="1556890567484" expanded="true" signature="413:9188" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="420:613" ph="/* During a build, collect classes referenced by RemoteSettings components ... */" />
+            <marker date="1556890567484" expanded="true" signature="685:9186" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="860:986" ph="/* We need to know if OnProcessScene is being called from a player build, or ... */" />
+            <marker date="1556890567484" expanded="true" signature="1076:1324" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="1358:1408" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="1457:1526" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="1598:1667" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="1835:3530" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="1994:2388" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="2118:2199" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="2235:2374" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="2422:3520" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="2539:2712" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="2596:2694" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="2961:3506" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="3168:3488" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="3279:3466" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="3718:5035" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="3741:4071" ph="/* In addition to the build process, OnProcessScene is also called on the current scene ... */" />
+            <marker date="1556890567484" expanded="true" signature="4122:5025" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="4201:4495" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="4306:4477" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="4513:4705" ph="/* OnPostprocessBuild is called after assemblies are already stripped ... */" />
+            <marker date="1556890567484" expanded="true" signature="4756:5011" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="5193:7268" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="5253:7258" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="5453:5519" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="5672:7244" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="6010:6811" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="6364:6726" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="6536:6700" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="6855:6950" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="7009:7122" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="7353:9180" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="7958:8890" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="8284:8876" ph="{...}" />
+            <marker date="1556890567484" expanded="true" signature="8323:8617" ph="/* TODO: to optimize build size, we could preserve only the fields by and/or ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Cauldron/Cauldron.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+          <folding>
+            <marker date="1556888793977" expanded="false" signature="6:100" ph="..." />
+            <marker date="1556888793977" expanded="true" signature="140:1568" ph="{...}" />
+            <marker date="1556888793977" expanded="false" signature="144:708" ph="Attributes" />
+            <marker date="1556888793977" expanded="true" signature="341:463" ph="/* 1 = Standard Ammo ... */" />
+            <marker date="1556888793977" expanded="false" signature="711:1064" ph="Unity Event Functions" />
+            <marker date="1556888793977" expanded="true" signature="755:903" ph="{...}" />
+            <marker date="1556888793977" expanded="true" signature="919:1051" ph="{...}" />
+            <marker date="1556888793977" expanded="true" signature="988:1048" ph="{...}" />
+            <marker date="1556888793977" expanded="true" signature="1067:1566" ph="Methods" />
+            <marker date="1556888793977" expanded="true" signature="1114:1242" ph="{...}" />
+            <marker date="1556888793977" expanded="true" signature="1271:1311" ph="{...}" />
+            <marker date="1556888793977" expanded="true" signature="1334:1554" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -514,7 +499,6 @@
           <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
           <folding>
             <marker date="1556889403819" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556889403819" expanded="true" signature="121:4863" ph="{...}" />
             <marker date="1556889403819" expanded="true" signature="2127:4861" ph="{...}" />
             <marker date="1556889403819" expanded="true" signature="3139:4854" ph="{...}" />
           </folding>
@@ -530,20 +514,6 @@
             <marker date="1556889868074" expanded="true" signature="136:566" ph="{...}" />
             <marker date="1556889868074" expanded="true" signature="249:376" ph="{...}" />
             <marker date="1556889868074" expanded="true" signature="415:560" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Spawner.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <marker date="1556889816475" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556889816475" expanded="true" signature="116:1164" ph="{...}" />
-            <marker date="1556889816475" expanded="true" signature="315:586" ph="{...}" />
-            <marker date="1556889816475" expanded="true" signature="610:1162" ph="{...}" />
-            <marker date="1556889816475" expanded="true" signature="736:1156" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -617,71 +587,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Cauldron/Cauldron.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/Spawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        <state relative-caret-position="105">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
-            <marker date="1556888793977" expanded="false" signature="6:100" ph="..." />
-            <marker date="1556888793977" expanded="true" signature="140:1568" ph="{...}" />
-            <marker date="1556888793977" expanded="false" signature="144:708" ph="Attributes" />
-            <marker date="1556888793977" expanded="true" signature="341:463" ph="/* 1 = Standard Ammo ... */" />
-            <marker date="1556888793977" expanded="false" signature="711:1064" ph="Unity Event Functions" />
-            <marker date="1556888793977" expanded="true" signature="755:903" ph="{...}" />
-            <marker date="1556888793977" expanded="true" signature="919:1051" ph="{...}" />
-            <marker date="1556888793977" expanded="true" signature="988:1048" ph="{...}" />
-            <marker date="1556888793977" expanded="true" signature="1067:1566" ph="Methods" />
-            <marker date="1556888793977" expanded="true" signature="1114:1242" ph="{...}" />
-            <marker date="1556888793977" expanded="true" signature="1271:1311" ph="{...}" />
-            <marker date="1556888793977" expanded="true" signature="1334:1554" ph="{...}" />
+            <marker date="1556889816475" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556889816475" expanded="true" signature="116:1164" ph="{...}" />
+            <marker date="1556889816475" expanded="true" signature="315:586" ph="{...}" />
+            <marker date="1556889816475" expanded="true" signature="610:1162" ph="{...}" />
+            <marker date="1556889816475" expanded="true" signature="736:1156" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Editor/RemoteSettings/RemoteSettingsLinker.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/SpawnManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="173" column="106" lean-forward="true" selection-start-line="173" selection-start-column="106" selection-end-line="173" selection-end-column="106" />
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <marker date="1556890567484" expanded="false" signature="29:379" ph="..." />
-            <marker date="1556890567484" expanded="true" signature="413:9188" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="420:613" ph="/* During a build, collect classes referenced by RemoteSettings components ... */" />
-            <marker date="1556890567484" expanded="true" signature="685:9186" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="860:986" ph="/* We need to know if OnProcessScene is being called from a player build, or ... */" />
-            <marker date="1556890567484" expanded="true" signature="1076:1324" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="1358:1408" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="1457:1526" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="1598:1667" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="1835:3530" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="1994:2388" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="2118:2199" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="2235:2374" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="2422:3520" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="2539:2712" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="2596:2694" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="2961:3506" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="3168:3488" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="3279:3466" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="3718:5035" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="3741:4071" ph="/* In addition to the build process, OnProcessScene is also called on the current scene ... */" />
-            <marker date="1556890567484" expanded="true" signature="4122:5025" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="4201:4495" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="4306:4477" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="4513:4705" ph="/* OnPostprocessBuild is called after assemblies are already stripped ... */" />
-            <marker date="1556890567484" expanded="true" signature="4756:5011" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="5193:7268" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="5253:7258" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="5453:5519" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="5672:7244" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="6010:6811" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="6364:6726" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="6536:6700" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="6855:6950" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="7009:7122" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="7353:9180" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="7958:8890" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="8284:8876" ph="{...}" />
-            <marker date="1556890567484" expanded="true" signature="8323:8617" ph="/* TODO: to optimize build size, we could preserve only the fields by and/or ... */" />
+            <marker date="1556890800802" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556890800802" expanded="true" signature="122:4418" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="404:698" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="717:896" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="927:4411" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="954:4386" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="1331:1825" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="1410:1810" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="1859:2871" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="1993:2398" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="2451:2856" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="2888:4376" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="3022:3426" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="3499:3904" ph="{...}" />
+            <marker date="1556890800802" expanded="true" signature="3957:4361" ph="{...}" />
           </folding>
         </state>
       </provider>
