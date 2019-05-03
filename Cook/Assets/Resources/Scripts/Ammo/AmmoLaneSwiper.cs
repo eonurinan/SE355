@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AmmoLaneSwiper : Ammo {
 	void Start(){
-		speed = 15;
-		damage = 1000;
+		speed = RemoteConfig.ammoLaneSwiperSpeed;
+		damage = RemoteConfig.ammoLaneSwiperDamage;
 	}
 
 	void Update(){

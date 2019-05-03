@@ -3,25 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Wall : MonoBehaviour {
-	
-	private float healthMax;
-	protected Slider healthBar;
+public class Wall : MonoBehaviour
+{
+    private float healthMax;
+    protected Slider healthBar;
 
-	public float health = 300;
-		
-	public void Start (){
-			healthBar = transform.GetChild (0).GetComponent<Slider> ();
-			healthMax = health;
-	}
+    public float health;
 
-	public void DealDamage(float damage){
-		health-= damage;
-		healthBar.value = health / healthMax;
-		if (health <= 0)
-			Destroy (gameObject);
-	}
-	
+    public void Start()
+    {
+        health = RemoteConfig.wallHealth;
+        healthBar = transform.GetChild(0).GetComponent<Slider>();
+        healthMax = health;
+    }
+
+    public void DealDamage(float damage)
+    {
+        health -= damage;
+        healthBar.value = health / healthMax;
+        if (health <= 0)
+            Destroy(gameObject);
+    }
+
 
 /* 	public 
 	void OnTriggerStay2D(Collider2D col){

@@ -5,8 +5,8 @@ using UnityEngine;
 public class AmmoSlowing : Ammo {
     int slowingfactor = 2;
     void Start(){
-		speed = 8;
-        damage = 30;
+		speed = RemoteConfig.ammoSlowingSpeed;
+        damage = RemoteConfig.ammoSlowingDamage;
         
 	}
 

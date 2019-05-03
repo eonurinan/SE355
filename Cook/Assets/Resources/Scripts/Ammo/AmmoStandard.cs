@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AmmoStandard : Ammo {
 	void Start(){
-		speed = 10;
-		damage = 50;
+		speed = RemoteConfig.ammoStandardSpeed;
+		damage = RemoteConfig.ammoStandardDamage;
 	}
 
 	void Update(){
