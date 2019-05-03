@@ -79,7 +79,7 @@ public class SpawnManager : MonoBehaviour {
                 else if (lastSpawn + cd < Time.time)
                 {
                     ////Spawn Second
-                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[1].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 2 + " Spawned on " + (lane + 1) + ". Lane");
                     Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);
@@ -101,7 +101,7 @@ public class SpawnManager : MonoBehaviour {
                 else if (RandomIndex < 40 && lastSpawn + cd < Time.time)
                 {
                     ////Spawn Second
-                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[1].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 2 + " Spawned on " + (lane + 1) + ". Lane");
                     Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);
@@ -109,7 +109,7 @@ public class SpawnManager : MonoBehaviour {
                 else if (lastSpawn + cd < Time.time)
                 {
                     ////Spawn Third
-                    cd = EnemyPrefabs[0].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
+                    cd = EnemyPrefabs[2].gameObject.GetComponent<Enemy>().health / 100f / (spawnRateDivision * level);
                     lastSpawn = Time.time;
                     Debug.Log("Enemy " + 3 + " Spawned on " + (lane + 1) + ". Lane");
                     Instantiate(EnemyPrefabs[dice], position, Quaternion.identity);
