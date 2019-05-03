@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
 	public static Player instance = null;		//Singleton instance
 
 	public int currentLane;
+	public Cauldron currCauld;
 
 	public int Ammo;
 		//This is the ID of ammo that player is holding.
@@ -34,13 +35,16 @@ public class Player : MonoBehaviour {
 	void Start(){
 		Move (1);
 		Ammo = 1;
-		GameObject.Find ("GameManager").GetComponent<GameManager>().showAmmo();
-
 		AmmoPrefabs = new GameObject[3]; 
 
 		AmmoPrefabs [0] = Resources.Load<GameObject> ("Prefabs/Bread_Standard");
 		AmmoPrefabs [1] = Resources.Load<GameObject> ("Prefabs/Chicken_Slowing");
 		AmmoPrefabs [2] = Resources.Load<GameObject> ("Prefabs/Spicy_Swiper");
+
+		currCauld = GameObject.Find("Cauldron Bread").GetComponent<Cauldron>();
+		StartCoroutine(HighlightDelayed(.1f));
+		
+
 
 	}
 
@@ -48,6 +52,12 @@ public class Player : MonoBehaviour {
 
 	#region Methods
 
+	IEnumerator HighlightDelayed(float seconds)
+{
+         yield return new WaitForSeconds(seconds);
+		 currCauld.Highlight(true);
+
+}
 	public void Move(int Lane){		//BODY WILL BE CONVERTED TO COROUTINE LATER for interpolation.
 									//Final version will be a Cororoutine in a Function, for using at button OnClick() event.
 
@@ -66,15 +76,16 @@ public class Player : MonoBehaviour {
 	}
 
 	public void Shoot(int desiredLane){
+		Ammo = currCauld.ammoType;
+		int ammoCount =  currCauld.ammoStored;
 		if (desiredLane == currentLane) {
-			if (Ammo == 0)
+			if (ammoCount == 0)
 				Debug.Log ("No ammo");
 			else {
 				GetComponent<Animator>().SetTrigger("ToThrow");
 				Instantiate (AmmoPrefabs [Ammo - 1], transform.position, transform.rotation);
-				Ammo = 0;
-				GameObject.Find ("GameManager").GetComponent<GameManager>().showAmmo();
-
+				currCauld.ammoStored--;
+				currCauld.RefreshText();
 			}
 		} 			
 	}

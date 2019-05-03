@@ -7,16 +7,17 @@ public class AlienOctopus : Enemy
 {
     void Start()
     {
-        speed = RemoteConfig.alienOctopusSpeed;
-        health = RemoteConfig.alienOctopusHealth;
-        damage = RemoteConfig.alienOctopusDamage;
+	    speed = RemoteConfig.alienOctopusSpeed;
+	    health = RemoteConfig.alienOctopusHealth;
+	    damage = RemoteConfig.alienOctopusDamage;
 
-        healthBar = transform.GetChild(0).GetChild(0).GetComponent<Slider>();
-        healthMax = health;
+		healthBar = transform.GetChild (0).GetChild (0).GetComponent<Slider> ();
+		healthMax = health;
+
     }
 
     void Update()
     {
-        Move();
+		Move();
     }
 }

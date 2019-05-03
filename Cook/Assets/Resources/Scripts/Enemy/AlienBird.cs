@@ -11,13 +11,12 @@ public class AlienBird : Enemy
         health = RemoteConfig.alienBirdHealth;
         damage = RemoteConfig.alienBirdDamage;
 
-
-        healthBar = transform.GetChild(0).GetChild(0).GetComponent<Slider>();
-        healthMax = health;
+		healthBar = transform.GetChild (0).GetChild (0).GetComponent<Slider> ();
+		healthMax = health;
     }
-
     void Update()
     {
         Move();
     }
+   
 }

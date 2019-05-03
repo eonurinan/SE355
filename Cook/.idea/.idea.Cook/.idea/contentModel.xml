@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\msi\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\msi\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Cook.1748022676.00" t="ExcludeRecursive" />
-    <e p="C:\Users\msi\Desktop\SE355-master\Cook" t="IncludeRecursive">
+    <e p="C:\Users\msi\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Cook.1778111517.00" t="ExcludeRecursive" />
+    <e p="C:\Users\msi\Desktop\onat branch\SE355\Cook" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -31,7 +31,9 @@
               <e p="AmmoSlowing.cs" t="Include" />
               <e p="AmmoStandard.cs" t="Include" />
             </e>
-            <e p="Cauldron.cs" t="Include" />
+            <e p="Cauldron" t="Include">
+              <e p="Cauldron.cs" t="Include" />
+            </e>
             <e p="Enemy" t="Include">
               <e p="AlienBaloon.cs" t="Include" />
               <e p="AlienBird.cs" t="Include" />
@@ -41,7 +43,9 @@
             <e p="GameManager.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="RemoteConfig.cs" t="Include" />
+            <e p="Shop.cs" t="Include" />
             <e p="Spawner.cs" t="Include" />
+            <e p="SpawnManager.cs" t="Include" />
             <e p="Wall.cs" t="Include" />
           </e>
         </e>

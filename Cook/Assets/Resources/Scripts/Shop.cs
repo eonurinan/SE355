@@ -11,6 +11,8 @@ public class Shop : MonoBehaviour
     public Button WallUpgradeButton_, BreadUpgradeButton_, ChickenUpgradeButton_, SpicyUpgradeButton_;
     public Text WallUpgradeLevel_, BreadUpgradeLevel_, ChickenUpgradeLevel_, SpicyUpgradeLevel_;
 
+    private Cauldron CauldCh, CauldBr, CauldSp;
+
 
 
 
@@ -22,6 +24,10 @@ public class Shop : MonoBehaviour
     }
     public void ButtonTextİnitial()
     {
+        CauldBr = GameObject.Find("Cauldron Bread").GetComponent<Cauldron>();
+        CauldCh = GameObject.Find("Cauldron Chicken").GetComponent<Cauldron>();
+        CauldSp = GameObject.Find("Cauldron Spicy").GetComponent<Cauldron>();
+
         WallUpgradeButton_ = GameObject.Find("WallUpgradeButton").GetComponent<Button>();
         WallUpgradeLevel_ = GameObject.Find("WallUpgradeLevel").GetComponent<Text>();
         BreadUpgradeButton_ = GameObject.Find("BreadUpgradeButton").GetComponent<Button>();
@@ -82,6 +88,7 @@ public class Shop : MonoBehaviour
         if (GameManager.gold >= BreadUpgradePrize && breadUpgradeLevel < 4)
         {
             breadUpgradeLevel++;
+            CauldBr.fillSpeed*=2;
             GameManager.gold = GameManager.gold - BreadUpgradePrize;
             Debug.Log("Bread Upgrade Level İncrease 1");
             ReloadText();
@@ -101,6 +108,7 @@ public class Shop : MonoBehaviour
         if (GameManager.gold >= ChickenUpgradePrize && breadUpgradeLevel < 4)
         {
             chickenUpgradeLevel++;
+            CauldCh.fillSpeed*=2;
             GameManager.gold = GameManager.gold - ChickenUpgradePrize;
             Debug.Log("Chicken Upgrade Level İncrease 1");
             ReloadText();
@@ -119,14 +127,15 @@ public class Shop : MonoBehaviour
     {
         if (GameManager.gold >= SpicyUpgradePrize && spicyUpgradeLevel < 4)
         {
-            chickenUpgradeLevel++;
+            spicyUpgradeLevel++;
+            CauldSp.fillSpeed*=2;
             GameManager.gold = GameManager.gold - SpicyUpgradePrize;
             Debug.Log("Spicy Upgrade Level İncrease 1");
             ReloadText();
         }
-        else if (chickenUpgradeLevel == 4)
+        else if (spicyUpgradeLevel == 4)
         {
-            ChickenUpgradeButton_.interactable = false;
+            SpicyUpgradeButton_.interactable = false;
             Debug.Log("Spicy Upgrade Reached Max Level");
         }
         else

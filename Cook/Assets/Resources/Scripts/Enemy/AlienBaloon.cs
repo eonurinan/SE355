@@ -8,9 +8,7 @@ public class AlienBaloon : Enemy
 
     void Start()
     {
-		speed = RemoteConfig.alienBalloonSpeed;
-		Debug.Log("alien ballon speed" + RemoteConfig.alienBalloonSpeed);
-		
+	    speed = RemoteConfig.alienBalloonSpeed;
 		health = RemoteConfig.alienBalloonHealth;
 		damage = RemoteConfig.alienBalloonDamage;
 
